@@ -1,0 +1,51 @@
+body{
+    color: #1ba2d8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* 余白を消す */
+    margin: 0;
+}
+
+header{
+    background-color: #989599;
+    /* 余白を消す（margin > border > padding > 要素 の入れ子構造） */
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+/* クラス名での指定はドット.を先頭につける */
+.info{
+    margin-left: 32px;
+}
+
+/* クラス名の後ろにブランクを開けてタグ名を入れることで細かい設定が可能 */
+.info h1{
+    font-weight: normal;
+    font-size: 24px;
+    margin: 0%;
+}
+
+.info p{
+    margin: 0%;
+    margin-bottom: 16px;
+}
+
+.info ul{
+    margin: 0;
+    padding: 0;
+    /* 箇条書きリストのドットを消す */
+    list-style: none;
+    /* 縦並びを横並びへ */
+    display: flex;
+}
+
+/* 見やすくするためにアイコン同士の間隔を取る */
+.info ul li{
+    margin-right: 8px;
+}
+
+.icon img{
+    border-radius: 30%;
+    border-color: white;
+    border-style: solid;
+    border-width: 4px;
+}

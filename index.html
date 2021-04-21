@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!-- 属性：langなど（""で=以降の値を囲む必要が有る） -->
+<html lang="ja">
+
+<!-- htmlファイルの情報を宣言する： ※ヘッダーではない -->
+<head> 
+    <!-- 文字コードの設定で文字化けを防ぐ -->
+    <meta charset="UTF-8">
+    <meta name="description" content="test">
+    <title>kawanami_mypage</title>
+    <!-- CSSファイルを参照 -->
+    <link rel="stylesheet" href="mypage.css">
+</head>
+
+<!-- ボディー -->
+<body>
+    <!-- ヘッダー：　ナビゲーションバーなどが置かれるスクロールしても変わらない部分  -->
+    <header>
+        <div class="icon">
+            <img src="img/pic_kawanami.jpg" alt="川波稜のアイコン" width="220" height="300">
+        </div>
+        <!-- divタグ：　意味を持たないがまとまりを明示的に記すことができる + class属性を付与できる -->
+        <div class="info">
+            <h1>Ryo Kawanami</h1>
+            <p>AIエンジニア</p>
+            <!-- ulタグの中にliタグを設置するとリストで箇条書きで表示することが可能 -->
+            <ul>
+                <li>
+                    <a href="https://scrapbox.io/mitou-meikan/%E5%B7%9D%E6%B3%A2_%E7%A8%9C">
+                        <img src="img/icon_scrapbox.jpg" alt="scrapbox未踏名鑑のアイコン" width="40" height="40">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.wantedly.com/id/ryo_kawanami">
+                        <img src="img/icon_wanteadly.png" alt="wantedlyのアイコン" width="40" height="40">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <!-- セクション：　明示的にまとまりを作る時に使う -->
+    <section class="works">
+        <!-- 見出しh1 -->
+        <h1>PORTFOLIO</h1>
+        <!-- セクション"works"の中の小さなセクション（複数作成する際に明示的にまとまりとして定義） -->
+        <section>
+            <h2>第20回東京大学制作展"Dest-logy REBUILD"</h2>
+            <h3>作品：ーThe world lineー （川波 稜/沼田俊之） </h3>
+            <a href="https://youtu.be/8fvGbsHHAdU?t=124">
+                <!-- 画像の表示：　alt属性はメモ -->
+                <img src="img/pic_seisakuten.png" alt="東大制作展の画像" width='400' height='260'> 
+            </a>
+            
+        </section>
+        <!-- フッター -->
+        <footer>
+            <!-- pタグ：　段落（パラグラフ）を示す文章の一塊 -->
+            <p>Copyright (C) 2021 Ryo Kawanami. All Rights Researved.</p>
+        </footer>
+    </section>
+</body>
+
+
+</html>
+
+
+<!-- メモ：vscode拡張機能：HTML Previewを用いて表示を行う際は cmd+k -> v で表示 -->
