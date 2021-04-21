@@ -1,4 +1,4 @@
 # mypage_kawanami_html
 
-ポートフォリオサイト
+ポートフォリオサイト：
 https://ryo-kawanami.github.io/mypage_kawanami_html/
