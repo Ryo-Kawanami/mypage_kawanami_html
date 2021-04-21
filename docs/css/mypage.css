@@ -6,7 +6,7 @@ body{
 }
 
 header{
-    background-color: #989599;
+    background-color: #c2f01c;
     /* 余白を消す（margin > border > padding > 要素 の入れ子構造） */
     padding-top: 0%;
     padding-bottom: 0%;
