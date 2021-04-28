@@ -6,8 +6,9 @@
 <head> 
     <!-- 文字コードの設定で文字化けを防ぐ -->
     <meta charset="UTF-8">
-    <meta name="description" content="test">
-    <title>kawanami_mypage</title>
+    <meta name="description" content="Ryo Kawanamiのマイページ">
+    <title>Ryo Kawanami</title>
+    <link rel="icon" href="images/favicon.png">
     <!-- CSSファイルを参照 -->
     <link rel="stylesheet" href="css/mypage.css">
 </head>
@@ -16,26 +17,28 @@
 <body>
     <!-- ヘッダー：　ナビゲーションバーなどが置かれるスクロールしても変わらない部分  -->
     <header>
-        <div class="icon">
-            <img src="images/pic_kawanami.jpg" alt="川波稜のアイコン" width="220" height="300">
-        </div>
-        <!-- divタグ：　意味を持たないがまとまりを明示的に記すことができる + class属性を付与できる -->
-        <div class="info">
-            <h1>Ryo Kawanami</h1>
-            <p>AIエンジニア</p>
-            <!-- ulタグの中にliタグを設置するとリストで箇条書きで表示することが可能 -->
-            <ul>
-                <li>
-                    <a href="https://scrapbox.io/mitou-meikan/%E5%B7%9D%E6%B3%A2_%E7%A8%9C">
-                        <img src="images/icon_scrapbox.jpg" alt="scrapbox未踏名鑑のアイコン" width="40" height="40">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.wantedly.com/id/ryo_kawanami">
-                        <img src="images/icon_wanteadly.png" alt="wantedlyのアイコン" width="40" height="40">
-                    </a>
-                </li>
-            </ul>
+        <div class="container">
+            <div class="icon">
+                <img src="images/pic_kawanami.jpg" alt="川波稜のアイコン" width="220" height="300">
+            </div>
+            <!-- divタグ：　意味を持たないがまとまりを明示的に記すことができる + class属性を付与できる -->
+            <div class="info">
+                <h1>Ryo Kawanami</h1>
+                <p>AIエンジニア</p>
+                <!-- ulタグの中にliタグを設置するとリストで箇条書きで表示することが可能 -->
+                <ul>
+                    <li>
+                        <a href="https://scrapbox.io/mitou-meikan/%E5%B7%9D%E6%B3%A2_%E7%A8%9C">
+                            <img src="images/icon_scrapbox.jpg" alt="scrapbox未踏名鑑のアイコン" width="40" height="40">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.wantedly.com/id/ryo_kawanami">
+                            <img src="images/icon_wanteadly.png" alt="wantedlyのアイコン" width="40" height="40">
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </header>
     <!-- セクション：　明示的にまとまりを作る時に使う -->
