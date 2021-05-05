@@ -41,7 +41,7 @@ header{
 
 .intro {
     text-align: center;
-    width: 400px;
+    width: 500px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -73,7 +73,7 @@ header{
 
 
 .works{
-    width: 400px;
+    width: 500px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -107,7 +107,7 @@ footer p{
 }
 
 .container{
-    width: 400px;
+    width: 500px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
